@@ -1,0 +1,44 @@
+body {
+ margin: 0;
+ border: 0;
+ padding: 0;
+ list-style: none;
+ text-decoration: none;
+}
+
+main {
+ display: grid;
+ grid-template-columns: 190px auto;
+}
+
+section {
+ display: block;
+ height: 100%;
+}
+
+.infoDados {
+ display: grid;
+ margin: 10px 0px;
+ gap: 10px;
+ grid-template-columns: 60% auto;
+}
+
+.content {
+ padding: 10px;
+}
+.Conteudo{
+ padding: 10px;
+}
+
+.tabelaAlunos {
+    background: rgb(204, 204, 204);
+    margin: 10px;
+    border-radius: 20px;
+    padding: 5px;
+}
+/* #ab1{
+    background: #eeeeee;
+} */
+
+
+

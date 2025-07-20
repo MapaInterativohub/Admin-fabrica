@@ -1,0 +1,61 @@
+#ab1{
+    background: #eeeeee;
+}
+#aba {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#txt2 {
+    justify-content: center;
+    background: rgb(167, 0, 0);
+    color: azure;
+    border-radius: 1em;
+    width: 20px;
+    height: 20px;
+}
+
+.abas h1 {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+}
+
+.abas {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    background: rgb(182, 182, 182);
+    padding: 10px 15px;
+    border-radius: 15px 15px 0px 0px;
+    width: 150px;
+    margin-right: 5px;
+    justify-content: space-between;
+}
+
+.label-adcionar-alunos {
+    background: rgb(255, 255, 255);
+    padding: 5px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.label-adcionar-alunos i {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(255, 255, 255);
+    padding: 5px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.label-adcionar-alunos a {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+.conteine-abas {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}

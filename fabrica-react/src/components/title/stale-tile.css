@@ -1,0 +1,48 @@
+.title{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ text-align: center;
+ background: #E3E3E3;
+ padding: 5px;
+ height: 57px;
+}
+.textotitle{
+ font-family: 'Roboto', sans-serif;
+ display: flex;
+ font-family: 'Roboto', sans-serif;
+ letter-spacing: 0px;
+ word-spacing: 0px;
+ color: #E3E3E3;
+ font-weight: normal;
+ text-decoration: none;
+ font-style: normal;
+ font-variant: normal;
+ text-transform: none;
+ line-height: 60px;
+ user-select: none;
+ color: #333;
+ align-items: center;
+}
+.textotitle h1{
+ font-size: 20px;
+}
+.textotitle h2{
+ font-size: 12px;
+}
+.user{
+ font-family: 'Roboto', sans-serif;
+ background: #2d4f94;
+ padding: 5px 10px;
+ border-radius: 230px;
+}
+.user a{
+ color: #E3E3E3;
+ font-size: 20px;
+}
+.user i{
+ margin-right: 16px;
+}
+.textNave{
+
+}

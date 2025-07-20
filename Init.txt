@@ -1,0 +1,19 @@
+COMO INICIAR O SERVIDOR REACT
+
+1. Abra o terminal (CMD, PowerShell ou outro) e navegue até a pasta do projeto:
+
+   cd fabrica-react
+
+2. Instale as dependências do projeto com o seguinte comando:
+
+   npm install
+
+   Este comando irá baixar todos os pacotes necessários definidos no arquivo package.json.
+
+3. Após a instalação, inicie o servidor React com:
+
+   npm start
+
+O projeto será iniciado e, normalmente, será aberto automaticamente no navegador, no seguinte endereço:
+
+   http://localhost:3000

@@ -1,0 +1,78 @@
+.listaProjetos{
+ background: #eeeeee;
+ padding: 10px;
+ border-radius: 12px;
+ box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.listaProjetos h1{
+ padding: 5px;
+ font-family: 'Roboto', sans-serif;
+ font-size: 12px;
+}
+.infoGeral{
+ margin: 10px 0px;
+}
+
+.projetos {
+ display: flex;
+ align-items: center;
+ gap: 20px;
+ background-color: #f9f9f9;
+ padding: 2px 10px 2px 4px;
+ border-radius: 12px;
+ box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+ margin-bottom: 20px;
+ max-width: 100%;
+}
+
+.projetos img {
+ width: 150px;
+ height: 100px;
+ object-fit: cover;
+ border-radius: 8px;
+}
+
+.descripiton {
+ flex: 2;
+}
+
+.descripiton h2 {
+ margin: 0;
+ font-size: 20px;
+ font-weight: bold;
+ color: #333;
+}
+
+.descripiton h3 {
+ margin: 5px 0;
+ font-size: 16px;
+ color: #555;
+}
+
+.descripiton2 {
+ flex: 1;
+ display: flex;
+ flex-direction: column;
+ align-items: flex-start;
+ gap: 8px;
+}
+
+.descripiton2 h3 {
+ margin: 0;
+ font-size: 14px;
+ color: #666;
+}
+
+.projetos button {
+ padding: 6px 12px;
+ border: none;
+ background-color: #28a745;
+ color: white;
+ border-radius: 5px;
+ cursor: pointer;
+ font-size: 14px;
+}
+
+.projetos button:hover {
+ background-color: #218838;
+}
