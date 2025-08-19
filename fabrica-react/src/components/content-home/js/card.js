@@ -1,5 +1,37 @@
 import "../css/css-cards.css";
+import { Link } from "react-router-dom";
+import React, { useState, useEffect } from "react";
+import axios from "axios";
 function Cards() {
+  const [quantidadeDeAlunos, setQuantidadeDeAlunos] = useState([]);
+  const [quantidadeDeProjetos, setQuantidadeDeProjetos] = useState([]);
+
+  //Controle de quantidade de Projetos para o card de Projetos
+  useEffect(() => {
+    axios
+      .get("http://localhost:8080/alunos/alunos")
+      .then((res) => {
+        setQuantidadeDeAlunos(res.data);
+      })
+      .catch((err) => {
+        console.error("Erro ao buscar projetos:", err);
+      });
+  }, []);
+  const quantidadeAlunos = quantidadeDeAlunos.length;
+
+  //Controle de quantidade de Alunos para o card de alunos
+  useEffect(() => {
+    axios
+      .get("http://localhost:8080/projetos/getprojetos")
+      .then((res) => {
+        setQuantidadeDeProjetos(res.data);
+      })
+      .catch((err) => {
+        console.error("Erro ao buscar projetos:", err);
+      });
+  }, []);
+  const quantidadeProjetos = quantidadeDeProjetos.length;
+
   return (
     <div className="infoGeral">
       <link
@@ -7,37 +39,37 @@ function Cards() {
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
       />
       <div class="cardinfoGeral" id="cardGestores">
-        <a href="#">
+        <Link to="/gestores">
           <i className="fa-solid fa-people-roof"></i>
           <div className="info">
             <div className="txtCard">
-              <h1>3</h1>
+              <h1>Não definido</h1>
               <h2>Gestores</h2>
             </div>
           </div>
-        </a>
+        </Link>
       </div>
       <div className="cardinfoGeral" id="cardProjetos">
-        <a href="#">
+        <Link to="/alunos">
           <i className="fa-solid fa-graduation-cap"></i>
           <div className="info">
             <div className="txtCard">
-              <h1>3</h1>
+              <h1>{quantidadeAlunos}</h1>
               <h2>Alunos</h2>
             </div>
           </div>
-        </a>
+        </Link>
       </div>
       <div className="cardinfoGeral" id="cardAlunos">
-        <a href="#">
+        <Link to="/projetos">
           <i className="fa-solid fa-sheet-plastic"></i>
           <div className="info">
             <div className="txtCard">
-              <h1>3</h1>
+              <h1>{quantidadeProjetos}</h1>
               <h2>Projetos</h2>
             </div>
           </div>
-        </a>
+        </Link>
       </div>
     </div>
   );

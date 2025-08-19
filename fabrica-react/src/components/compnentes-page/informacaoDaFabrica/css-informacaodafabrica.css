@@ -1,0 +1,129 @@
+.informacao {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f9f9f9; /* tom mais claro */
+  padding: 30px;
+  margin-top: 10px;
+  border-radius: 20px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  font-family: "Roboto", sans-serif;
+}
+
+.text {
+  width: 60%;
+  text-align: left;
+  color: #333;
+}
+
+.text h1 {
+  font-size: 1.2vw;
+  text-align: justify;
+  margin-bottom: 20px;
+  color: #2c3e50;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.text h2 {
+  font-size: 1.1vw;
+  text-align: justify;
+  margin-bottom: 20px;
+  color: #34495e;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.Img-informacao-fabrica {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  /* max-width: 450px; */
+  /* height: 300px; */
+  /* background: #1c5980; */
+}
+
+.Img-informacao-fabrica img {
+  height: 20rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  min-width: 350px;
+  /* display: block; */
+}
+
+.btn-atualizar-txt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.7rem;
+  width: 80px;
+  height: 40px;
+  background-color: #2980b9;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+  font-family: "Roboto", sans-serif;
+  margin-right: 10px;
+}
+
+.btn-atualizar-txt:hover {
+  background-color: #1c5980;
+}
+
+/* Stilo do formulario de envio de texto */
+.formularioDeAtulizacaoDeTexte {
+  display: none;
+  padding-bottom: 10px;
+}
+#AtualizarText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 20px;
+  font-size: 0.6rem;
+}
+.EditorDeImagen {
+  display: flex;
+  width: 300px;
+  position: relative;
+  bottom: 50px;
+  left: 10%;
+}
+.EditorDeImagen label {
+  font-size: 0.5rem;
+}
+.EditorDeImagen input {
+  height: 20px;
+  margin: 0px;
+  padding: 0px;
+}
+.EditorDeImagen form {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  height: 30px;
+  background:white;
+  padding: 5px;
+  border-radius: 10px;
+}
+#AtualizarTextImagen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 20px;
+  font-size: 0.6rem;
+  margin: 0;
+  margin-left: 5px;
+}
+#Input_Imagem{
+ padding: 0px;
+ padding-bottom: 2.5px;
+ margin: 0px;
+}
+#FormAtulizarImagen{
+  display: none;
+}
+

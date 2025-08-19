@@ -6,8 +6,13 @@
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+.content h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
 
 label {
+    text-align: left;
     font-family: 'Roboto', sans-serif;
     display: block;
     margin-bottom: 6px;
@@ -26,6 +31,17 @@ select {
     border: 1px solid #ccc;
     border-radius: 5px;
     box-sizing: border-box;
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid #399bf7; /* Cor da borda ao focar */
+    box-shadow: 0 0 5px #399bf7; /* Efeito brilhante ao redor */
+  }
+textarea:focus{
+    outline: none;
+    border: 1px solid #399bf7; /* Cor da borda ao focar */
+    box-shadow: 0 0 5px #399bf7; /* Efeito brilhante ao redor */
 }
 
 textarea {
@@ -55,4 +71,24 @@ button:hover {
 
 .duplo>div {
     flex: 1;
+}
+.Select{
+    height: 60px;
+    padding: 5px;
+    border-radius: 10px;
+}
+.Select img{
+    height: 60px;
+    border-radius: 10px;
+}
+.Select input{
+    position: relative;
+    bottom: 65px;
+    left: -30px;
+    
+}
+.imgSelect{
+    display: flex;
+    flex-wrap: wrap;
+    
 }

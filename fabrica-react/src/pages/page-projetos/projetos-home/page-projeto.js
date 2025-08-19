@@ -11,7 +11,7 @@ function Projetos() {
       <section>
         <Title Titulo={"Projetos"}/>
         <div className="Conteudo">
-          <LabelInfo rota={"/projetos/formulario"}/>
+          <LabelInfo rota={"/projetos/formulario"} nome={"Projetos"}/>
           <ListaProjetos/>
         </div>
       </section>

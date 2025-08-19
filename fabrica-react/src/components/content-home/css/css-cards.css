@@ -55,12 +55,17 @@
  margin: 0;
  font-size: 24px;
  font-weight: bold;
+ font-family: 'Roboto', sans-serif;
+ text-align: left;
 }
 
 .txtCard h2 {
  margin: 0;
+ padding-top: 5px;
  font-size: 16px;
  color: #666;
+ font-family: 'Roboto', sans-serif;
+ text-align: left;
 }
 
 .cardinfoGeral button {

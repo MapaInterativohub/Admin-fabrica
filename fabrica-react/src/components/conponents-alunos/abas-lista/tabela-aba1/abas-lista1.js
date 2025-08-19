@@ -6,12 +6,13 @@ import { Link } from "react-router-dom";
 
 function AbasLista1({ tipoAba }) {
   return (
-    <div className="conteine-abas">
-      <div id="aba">
-        <Link to="/alunos" className="abas" id="ab1">
-          Incritos
+    <div className="heder-tabela-aba">
+      <div className="aba">
+        <Link to="/alunos" className="abas" >
+          <h1>Incritos</h1>
         </Link>
-        <Link to="/alunos/nao-aprovado" className="abas">
+
+        <Link to="/alunos/nao-aprovado" className="abas" id="Ativo">
           <h1 className="txt">Aguardando</h1>
           <h1 className="txt">2</h1>
         </Link>

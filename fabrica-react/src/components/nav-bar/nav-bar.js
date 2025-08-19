@@ -9,10 +9,10 @@ function NavBar() {
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
       />
 
-      <img
+      <Link to="/"><img
         src="https://unisales.br/wp-content/uploads/2020/03/Logo-UniSales-Branca_Horizontal.png"
         alt="logo"
-      />
+      /></Link>
       <ul className="listaNave">
         <li className="navItem">
           <Link to="/" className="textNave">

@@ -1,0 +1,106 @@
+.tabelaImg {
+    padding: 10px;
+    background: rgb(241, 241, 241);
+    border-radius: 10px;
+
+}
+
+.haderConteinerImagens {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 5px;
+}
+
+.haderConteinerImagens h1 {
+    font-size: .8rem;
+}
+
+.haderConteinerImagens button {
+    display: flex;
+    width: 80px;
+    height: 20px;
+    font-size: 0.8rem;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2.5px;
+}
+
+.conteinerImgs {
+    display: flex;
+    max-height: 290px;
+    gap: 5px;
+    flex-wrap: wrap;
+    overflow-y: auto;
+}
+
+.Img {
+    background: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.Img img {
+    height: 95px;
+    border-radius: 10px;
+
+}
+
+.botonImage button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    font-size: .6rem;
+}
+
+.formImagensCurso {
+    text-align: right;
+    height: 70px;
+    background: white;
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.itensSave {
+    display: flex;
+    height: 45px;
+}
+
+.itensSave label {
+    display: inline-block;
+    font-size: .6rem;
+    padding-right: 5px;
+}
+
+#linkImagemCurso {
+    height: 30px;
+}
+
+#altImagem {
+    height: 30px;
+
+}
+
+.formImagensCurso button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    width: 50px;
+    font-size: .6rem;
+}
+
+.formImagensCurso{
+    display:none;
+    transition: all;
+}
+.btnEnvio{
+    display: flex;
+    align-items: center;
+}
+.btnEnvio h1{
+    font-size: .6rem;
+    padding-left: 10px;
+}

@@ -1,13 +1,15 @@
 .listaAlunos{
  background: #eeeeee;
  padding: 10px;
- border-radius: 12px;
+ border-radius: 10px;
  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 .listaAlunos h1{
  padding: 5px;
  font-family: 'Roboto', sans-serif;
- font-size: 12px;
+ font-size: 0.9rem;
+ text-align: left;
+ font-weight: bold;
 }
 .alunos {
  background-color: #fff;

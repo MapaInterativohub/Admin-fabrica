@@ -25,10 +25,10 @@
  align-items: center;
 }
 .textotitle h1{
- font-size: 20px;
+ font-size: 1rem;
 }
 .textotitle h2{
- font-size: 12px;
+ font-size: 1rem;
 }
 .user{
  font-family: 'Roboto', sans-serif;
@@ -38,7 +38,7 @@
 }
 .user a{
  color: #E3E3E3;
- font-size: 20px;
+ font-size: 1rem;
 }
 .user i{
  margin-right: 16px;

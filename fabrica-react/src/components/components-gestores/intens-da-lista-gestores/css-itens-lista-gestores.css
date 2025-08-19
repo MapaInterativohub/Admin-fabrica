@@ -1,0 +1,28 @@
+.lista-gestores{
+ background: #eeeeee;
+ padding: 10px;
+ border-radius: 12px;
+ box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+ text-align: left;
+}
+.lista-gestoress h1{
+ padding: 5px;
+ font-family: 'Roboto', sans-serif;
+ font-size: 12px;
+}
+.info-gestores{
+ display: flex;
+ justify-content: space-between;
+ background-color: rgb(255, 255, 255);
+ padding: 5px;
+ align-items: center;
+ border-radius: 10px;
+ font-family: 'Roboto', sans-serif;
+}
+
+
+.lista-gestores h1{
+ padding-bottom: 10px;
+ font-size: 1rem;
+ font-family: 'Roboto', sans-serif;
+}
