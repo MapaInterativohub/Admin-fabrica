@@ -1,9 +1,9 @@
 import './css-tabela-abas-nao-cadastrado.css'
-import ListaAlunos from '../lista-alunos/list-alunos';
+import ListaAlunosNaoCadatrado from '../lista-alunos/list-alunos-nao-cadastrado';
 function TabelaAbasNaoCadastrado() {
     return (
         <div className="main-tabela">
-            <ListaAlunos/>
+            <ListaAlunosNaoCadatrado/>
         </div>
     );
 }

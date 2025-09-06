@@ -6,7 +6,8 @@
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-.content h2{
+
+.content h2 {
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
 }
@@ -35,13 +36,18 @@ select {
 
 input:focus {
     outline: none;
-    border: 1px solid #399bf7; /* Cor da borda ao focar */
-    box-shadow: 0 0 5px #399bf7; /* Efeito brilhante ao redor */
-  }
-textarea:focus{
+    border: 1px solid #399bf7;
+    /* Cor da borda ao focar */
+    box-shadow: 0 0 5px #399bf7;
+    /* Efeito brilhante ao redor */
+}
+
+textarea:focus {
     outline: none;
-    border: 1px solid #399bf7; /* Cor da borda ao focar */
-    box-shadow: 0 0 5px #399bf7; /* Efeito brilhante ao redor */
+    border: 1px solid #399bf7;
+    /* Cor da borda ao focar */
+    box-shadow: 0 0 5px #399bf7;
+    /* Efeito brilhante ao redor */
 }
 
 textarea {
@@ -72,23 +78,125 @@ button:hover {
 .duplo>div {
     flex: 1;
 }
-.Select{
+
+.Select {
     height: 60px;
     padding: 5px;
     border-radius: 10px;
 }
-.Select img{
+
+.Select img {
     height: 60px;
     border-radius: 10px;
 }
-.Select input{
+
+.Select input {
     position: relative;
     bottom: 65px;
     left: -30px;
-    
+
 }
-.imgSelect{
+
+.imgSelect {
     display: flex;
     flex-wrap: wrap;
+
+}
+
+/* STILO INPUT MULTIPLOS ITENS */
+.addMais {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.textBtnAdicionar {
+    display: flex;
+    align-items: center;
     
+}
+
+.textBtnAdicionar h2 {
+    padding-right: 5px;
+}
+
+.textBtnAdicionar button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1rem;
+    width: 1rem;
+    margin: 2px;
+}
+
+.listaDeItens {
+    display: none;
+    background: #E3E3E3;
+    margin: 5px 0px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.itens {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 30px;
+    padding: 0px 10px;
+    border-radius: 5px;
+
+}
+
+.itens:hover {
+    background: #45a049;
+}
+
+.txt {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.itens i {
+    padding-left: 10px;
+}
+
+/* stilo itens dentro do imput */
+.inputsLista {
+    /* background: #45a049; */
+    border-radius: 5px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    min-height: 35px;
+
+}
+
+.itensAdicionado:hover{
+    background: #c8c8c8;
+}
+.itensAdicionado{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 250px;
+    margin: 5px 5px;
+    padding: 5px;
+    border-radius: 5px;
+    background: #E3E3E3;
+}
+.itensAdicionado h2{
+    font-size: 0.6rem;
+}
+.itensAdicionado button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1rem;
+    height: 1rem;
+
 }

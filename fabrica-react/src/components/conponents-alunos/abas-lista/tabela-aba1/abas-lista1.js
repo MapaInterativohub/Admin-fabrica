@@ -1,10 +1,22 @@
 import "../css-abas-lista.css";
 import { Link } from "react-router-dom";
+import { useState,useEffect } from "react";
+import axios from "axios";
 
-// const abaAlunos = document.getElementById("ab1");
-// const abaAguardando = document.getElementById("ab2");
+function AbasLista1() {
 
-function AbasLista1({ tipoAba }) {
+  const [alunos, setAlunos] = useState([])
+  const getAlunos = () => {
+    axios.get("http://localhost:8080/alunos/alunos").then((res) => {
+      const filtrados = res.data.filter((x) => x.status === false);
+      setAlunos(filtrados)
+    })
+  }
+
+  useEffect(() => {
+    getAlunos();
+  },[])
+
   return (
     <div className="heder-tabela-aba">
       <div className="aba">
@@ -14,7 +26,7 @@ function AbasLista1({ tipoAba }) {
 
         <Link to="/alunos/nao-aprovado" className="abas" id="Ativo">
           <h1 className="txt">Aguardando</h1>
-          <h1 className="txt">2</h1>
+          <h1 id="txt2">{alunos.length}</h1>
         </Link>
       </div>
       <div className="label-adcionar-alunos">

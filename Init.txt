@@ -17,3 +17,301 @@ COMO INICIAR O SERVIDOR REACT
 O projeto será iniciado e, normalmente, será aberto automaticamente no navegador, no seguinte endereço:
 
    http://localhost:3000
+
+Dados para Teste de Imagens
+
+[
+  {
+    "linkImagemCurso": "https://images.pexels.com/photos/256381/pexels-photo-256381.jpeg",
+    "altImagem": "Tecnologia"
+  },
+  {
+    "linkImagemCurso": "https://images.pexels.com/photos/3938022/pexels-photo-3938022.jpeg",
+    "altImagem": "Biologia"
+  },
+  {
+    "linkImagemCurso": "https://images.pexels.com/photos/6963944/pexels-photo-6963944.jpeg",
+    "altImagem": "Engenharia de Software"
+  },
+  {
+    "linkImagemCurso": "https://images.pexels.com/photos/4101143/pexels-photo-4101143.jpeg",
+    "altImagem": "Psicologia"
+  },
+  {
+    "linkImagemCurso": "https://images.pexels.com/photos/8962475/pexels-photo-8962475.jpeg",
+    "altImagem": "Administração"
+  },
+  {
+    "linkImagemCurso": "https://images.pexels.com/photos/8613366/pexels-photo-8613366.jpeg",
+    "altImagem": "Pedagogia"
+  },
+  {
+    "linkImagemCurso": "https://images.pexels.com/photos/5206923/pexels-photo-5206923.jpeg",
+    "altImagem": "Enfermagem"
+  },
+  {
+    "linkImagemCurso": "https://images.pexels.com/photos/9242832/pexels-photo-9242832.jpeg",
+    "altImagem": "Engenharia Elétrica"
+  },
+  {
+    "linkImagemCurso": "https://images.pexels.com/photos/5474034/pexels-photo-5474034.jpeg",
+    "altImagem": "Sistemas de Informação"
+  },
+  {
+    "linkImagemCurso": "https://images.pexels.com/photos/2004161/pexels-photo-2004161.jpeg",
+    "altImagem": "Ciência da Computação"
+  },
+  {
+    "linkImagemCurso": "https://images.pexels.com/photos/6077797/pexels-photo-6077797.jpeg",
+    "altImagem": "Direito"
+  },
+  {
+    "linkImagemCurso": "https://images.pexels.com/photos/7641859/pexels-photo-7641859.jpeg",
+    "altImagem": "Arquitetura"
+  }
+]
+##################################################################################################################
+Adicionar Projetos
+[
+  {
+    "nomeDoProjeto": "Sistema de Gestão Acadêmica",
+    "descricaoDoProjeto": "Plataforma para auxiliar universidades no gerenciamento de matrículas, notas e frequência dos alunos.",
+    "areaDeConhecimento": "Engenharia de Software",
+    "dataDeInicioDoProjeto": "2025-09-05",
+    "dataDoFimDoProjeto": "2026-01-15",
+    "linkGit": "https://github.com/fabricadesoftware/proj001",
+    "linkImage": "https://picsum.photos/200/300?random=1"
+  },
+  {
+    "nomeDoProjeto": "Plataforma de Estágio",
+    "descricaoDoProjeto": "Sistema que conecta estudantes a empresas da região em busca de oportunidades de estágio.",
+    "areaDeConhecimento": "Sistemas de Informação",
+    "dataDeInicioDoProjeto": "2025-09-10",
+    "dataDoFimDoProjeto": "2026-02-20",
+    "linkGit": "https://github.com/fabricadesoftware/proj002",
+    "linkImage": "https://picsum.photos/200/300?random=2"
+  },
+  {
+    "nomeDoProjeto": "Aplicativo de Mobilidade Urbana",
+    "descricaoDoProjeto": "App para monitorar transporte público em tempo real e sugerir rotas otimizadas para os usuários.",
+    "areaDeConhecimento": "Computação Móvel",
+    "dataDeInicioDoProjeto": "2025-09-15",
+    "dataDoFimDoProjeto": "2026-03-10",
+    "linkGit": "https://github.com/fabricadesoftware/proj003",
+    "linkImage": "https://picsum.photos/200/300?random=3"
+  },
+  {
+    "nomeDoProjeto": "Chatbot de Atendimento Acadêmico",
+    "descricaoDoProjeto": "Assistente virtual para responder dúvidas frequentes de alunos sobre cursos, prazos e documentos.",
+    "areaDeConhecimento": "Inteligência Artificial",
+    "dataDeInicioDoProjeto": "2025-09-18",
+    "dataDoFimDoProjeto": "2026-02-28",
+    "linkGit": "https://github.com/fabricadesoftware/proj004",
+    "linkImage": "https://picsum.photos/200/300?random=4"
+  },
+  {
+    "nomeDoProjeto": "Sistema de Monitoramento de Energia",
+    "descricaoDoProjeto": "Plataforma que coleta dados de consumo elétrico em empresas e sugere medidas de economia.",
+    "areaDeConhecimento": "Internet das Coisas (IoT)",
+    "dataDeInicioDoProjeto": "2025-09-20",
+    "dataDoFimDoProjeto": "2026-04-05",
+    "linkGit": "https://github.com/fabricadesoftware/proj005",
+    "linkImage": "https://picsum.photos/200/300?random=5"
+  },
+  {
+    "nomeDoProjeto": "Plataforma de Cursos Online",
+    "descricaoDoProjeto": "Ambiente virtual de aprendizagem com videoaulas, quizzes e acompanhamento de progresso.",
+    "areaDeConhecimento": "Educação Digital",
+    "dataDeInicioDoProjeto": "2025-09-22",
+    "dataDoFimDoProjeto": "2026-05-01",
+    "linkGit": "https://github.com/fabricadesoftware/proj006",
+    "linkImage": "https://picsum.photos/200/300?random=6"
+  },
+  {
+    "nomeDoProjeto": "Marketplace de Produtos Sustentáveis",
+    "descricaoDoProjeto": "Plataforma para conectar produtores locais a consumidores interessados em produtos sustentáveis.",
+    "areaDeConhecimento": "Desenvolvimento Web",
+    "dataDeInicioDoProjeto": "2025-09-25",
+    "dataDoFimDoProjeto": "2026-03-20",
+    "linkGit": "https://github.com/fabricadesoftware/proj007",
+    "linkImage": "https://picsum.photos/200/300?random=7"
+  },
+  {
+    "nomeDoProjeto": "Aplicativo de Saúde Mental",
+    "descricaoDoProjeto": "App com exercícios de respiração, diário emocional e acompanhamento psicológico remoto.",
+    "areaDeConhecimento": "Ciência de Dados",
+    "dataDeInicioDoProjeto": "2025-09-28",
+    "dataDoFimDoProjeto": "2026-06-10",
+    "linkGit": "https://github.com/fabricadesoftware/proj008",
+    "linkImage": "https://picsum.photos/200/300?random=8"
+  },
+  {
+    "nomeDoProjeto": "Sistema de Logística Inteligente",
+    "descricaoDoProjeto": "Ferramenta para otimizar rotas de entrega e reduzir custos de transporte em empresas locais.",
+    "areaDeConhecimento": "Pesquisa Operacional",
+    "dataDeInicioDoProjeto": "2025-09-30",
+    "dataDoFimDoProjeto": "2026-05-15",
+    "linkGit": "https://github.com/fabricadesoftware/proj009",
+    "linkImage": "https://picsum.photos/200/300?random=9"
+  },
+  {
+    "nomeDoProjeto": "Sistema de Gestão de Bibliotecas",
+    "descricaoDoProjeto": "Plataforma digital para empréstimo, reserva e catalogação de livros em bibliotecas acadêmicas.",
+    "areaDeConhecimento": "Banco de Dados",
+    "dataDeInicioDoProjeto": "2025-10-02",
+    "dataDoFimDoProjeto": "2026-07-01",
+    "linkGit": "https://github.com/fabricadesoftware/proj010",
+    "linkImage": "https://picsum.photos/200/300?random=10"
+  }
+]
+###############################################################################################################################
+Alunos
+
+[
+  {
+    "ra": "20250001",
+    "emailInstitucional": "joao.silva@universidade.edu.br",
+    "nome": "João Silva",
+    "curso": "Engenharia de Software",
+    "motivoDaInscricao": "Quero aprender a gerenciar sistemas acadêmicos e melhorar minhas habilidades de programação."
+  },
+  {
+    "ra": "20250002",
+    "emailInstitucional": "maria.oliveira@universidade.edu.br",
+    "nome": "Maria Oliveira",
+    "curso": "Sistemas de Informação",
+    "motivoDaInscricao": "Desejo ajudar na integração de estudantes com empresas locais."
+  },
+  {
+    "ra": "20250003",
+    "emailInstitucional": "pedro.santos@universidade.edu.br",
+    "nome": "Pedro Santos",
+    "curso": "Computação Móvel",
+    "motivoDaInscricao": "Quero aplicar meus conhecimentos em apps móveis para melhorar a mobilidade urbana."
+  },
+  {
+    "ra": "20250004",
+    "emailInstitucional": "ana.pereira@universidade.edu.br",
+    "nome": "Ana Pereira",
+    "curso": "Inteligência Artificial",
+    "motivoDaInscricao": "Tenho interesse em IA e quero desenvolver chatbots úteis para alunos."
+  },
+  {
+    "ra": "20250005",
+    "emailInstitucional": "carlos.moura@universidade.edu.br",
+    "nome": "Carlos Moura",
+    "curso": "Internet das Coisas (IoT)",
+    "motivoDaInscricao": "Desejo aprender IoT e desenvolver soluções para economia de energia."
+  },
+  {
+    "ra": "20250006",
+    "emailInstitucional": "laura.fonseca@universidade.edu.br",
+    "nome": "Laura Fonseca",
+    "curso": "Educação Digital",
+    "motivoDaInscricao": "Quero contribuir para a criação de cursos digitais interativos."
+  },
+  {
+    "ra": "20250007",
+    "emailInstitucional": "rafael.lima@universidade.edu.br",
+    "nome": "Rafael Lima",
+    "curso": "Desenvolvimento Web",
+    "motivoDaInscricao": "Tenho interesse em web e quero ajudar a conectar produtores locais a consumidores."
+  },
+  {
+    "ra": "20250008",
+    "emailInstitucional": "bianca.carvalho@universidade.edu.br",
+    "nome": "Bianca Carvalho",
+    "curso": "Ciência de Dados",
+    "motivoDaInscricao": "Quero usar dados para criar soluções que ajudem na saúde mental dos estudantes."
+  },
+  {
+    "ra": "20250009",
+    "emailInstitucional": "gustavo.rodrigues@universidade.edu.br",
+    "nome": "Gustavo Rodrigues",
+    "curso": "Pesquisa Operacional",
+    "motivoDaInscricao": "Desejo aplicar meus conhecimentos em otimização de rotas e logística."
+  },
+  {
+    "ra": "20250010",
+    "emailInstitucional": "mariana.souza@universidade.edu.br",
+    "nome": "Mariana Souza",
+    "curso": "Banco de Dados",
+    "motivoDaInscricao": "Tenho interesse em bancos de dados e quero criar sistemas para gerenciar bibliotecas."
+  }
+]
+
+###########################################################################################################################
+
+[
+  {
+    "codigoGestor": "GEST001",
+    "name": "João Almeida",
+    "descricao": "Responsável por projetos de sistemas acadêmicos e aplicativos educacionais.",
+    "cursoResposavel": "Engenharia de Software",
+    "linkImagenGestor": "https://picsum.photos/200/300?random=11"
+  },
+  {
+    "codigoGestor": "GEST002",
+    "name": "Maria Santos",
+    "descricao": "Gestora de projetos de integração entre estudantes e empresas da região.",
+    "cursoResposavel": "Sistemas de Informação",
+    "linkImagenGestor": "https://picsum.photos/200/300?random=12"
+  },
+  {
+    "codigoGestor": "GEST003",
+    "name": "Pedro Oliveira",
+    "descricao": "Especialista em desenvolvimento de aplicativos móveis para mobilidade urbana.",
+    "cursoResposavel": "Computação Móvel",
+    "linkImagenGestor": "https://picsum.photos/200/300?random=13"
+  },
+  {
+    "codigoGestor": "GEST004",
+    "name": "Ana Pereira",
+    "descricao": "Foca em inteligência artificial e assistentes virtuais para atendimento acadêmico.",
+    "cursoResposavel": "Inteligência Artificial",
+    "linkImagenGestor": "https://picsum.photos/200/300?random=14"
+  },
+  {
+    "codigoGestor": "GEST005",
+    "name": "Carlos Moura",
+    "descricao": "Responsável por soluções de IoT e monitoramento de consumo de energia.",
+    "cursoResposavel": "Internet das Coisas (IoT)",
+    "linkImagenGestor": "https://picsum.photos/200/300?random=15"
+  },
+  {
+    "codigoGestor": "GEST006",
+    "name": "Laura Fonseca",
+    "descricao": "Gestora de plataformas de cursos online e educação digital interativa.",
+    "cursoResposavel": "Educação Digital",
+    "linkImagenGestor": "https://picsum.photos/200/300?random=16"
+  },
+  {
+    "codigoGestor": "GEST007",
+    "name": "Rafael Lima",
+    "descricao": "Focado em desenvolvimento web e marketplaces de produtos sustentáveis.",
+    "cursoResposavel": "Desenvolvimento Web",
+    "linkImagenGestor": "https://picsum.photos/200/300?random=17"
+  },
+  {
+    "codigoGestor": "GEST008",
+    "name": "Bianca Carvalho",
+    "descricao": "Gestora de soluções digitais voltadas à saúde mental e ciência de dados.",
+    "cursoResposavel": "Ciência de Dados",
+    "linkImagenGestor": "https://picsum.photos/200/300?random=18"
+  },
+  {
+    "codigoGestor": "GEST009",
+    "name": "Gustavo Rodrigues",
+    "descricao": "Especialista em otimização logística e sistemas inteligentes para empresas.",
+    "cursoResposavel": "Pesquisa Operacional",
+    "linkImagenGestor": "https://picsum.photos/200/300?random=19"
+  },
+  {
+    "codigoGestor": "GEST010",
+    "name": "Mariana Souza",
+    "descricao": "Responsável por projetos de gestão de bibliotecas e banco de dados.",
+    "cursoResposavel": "Banco de Dados",
+    "linkImagenGestor": "https://picsum.photos/200/300?random=20"
+  }
+]
+

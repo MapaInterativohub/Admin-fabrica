@@ -17,7 +17,7 @@
     padding: 5px;
     padding-left: 15px;
     border-radius: 10px 10px 0px 0px;
-    min-width: 100px;
+    min-width: 120px;
     margin-right: 2px;
     color: #1f1f1f;
 }
@@ -34,7 +34,7 @@
     padding: 0px 5px;
     padding-right: 10px;
     margin-bottom: 10px;
-    height: 35px;
+    height: 30px;
 }
 .label-adcionar-alunos i {
     padding-right: 10px;
@@ -61,6 +61,9 @@
 }
 #Ativo:hover{
     background-color: rgb(182, 182, 182);
+}
+#txt2 {
+    padding-right: 10px;
 }
 /* #ab1{
     background: #eeeeee;

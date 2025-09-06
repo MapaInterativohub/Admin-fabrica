@@ -1,0 +1,60 @@
+.conteinerSelect {
+  display: flex;
+  background: rebeccapurple;
+  padding: 10px;
+}
+
+.btnSelector {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  height: 30px;
+
+}
+
+.btnSelector h1 {
+  font-size: 0.8rem;
+}
+
+.Selecionados{
+  display: flex;
+  padding: 10px;
+  background: green;
+  min-height: 30px;
+  flex-wrap: wrap;
+  
+}
+.select {
+  display: flex;
+  align-items: center;
+  background: yellowgreen;
+  border-radius: 10px;
+  padding: 0px 10px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  width: 29%;
+  justify-content: space-between;
+
+}
+.select button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}
+
+.TextSelect {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+}
+
+.TextSelect h1 {
+  font-size: 0.7rem;
+}
+

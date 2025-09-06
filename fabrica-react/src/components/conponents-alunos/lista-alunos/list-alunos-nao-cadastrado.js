@@ -1,9 +1,9 @@
 import "./css-lista-alunos.css"
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, use } from "react";
 import axios from "axios";
 import { Link } from "react-router-dom";
 
-function ListaAlunos() {
+function ListaAlunosNaoCadatrado() {
   const [alunos, setAlunos] = useState([]);
   const [alunosNaoAprovados, setAlunosNaoAprovados] = useState([]);
 
@@ -18,12 +18,28 @@ function ListaAlunos() {
       });
   }, []);
 
-  useEffect(() => {
+  const reprovados = () => {
     if (alunos.length > 0) {
-      const filtrados = alunos.filter((x) => x.status === true);
+      const filtrados = alunos.filter((x) => x.status === false);
       setAlunosNaoAprovados(filtrados);
     }
+  }
+
+  useEffect(() => {
+    reprovados();
   }, [alunos]);
+
+  const aprovarAluno = (ra) => {
+    const aluno = alunos.find((aluno) => aluno.ra === ra);
+    console.log(aluno)
+    const dados = aluno;
+
+    dados.status = true;
+    console.log(dados)
+
+    axios.put(`http://localhost:8080/alunos/aluno/${ra}`,dados)
+    reprovados();
+  }
 
   return (
     <div className="listaAlunos">
@@ -37,6 +53,7 @@ function ListaAlunos() {
             </span>
             <div className="acoes">
               <span className="ra">(RA:{aluno.ra})</span>
+              <button onClick={() => { aprovarAluno(aluno.ra) }}>Aprovar</button>
               <Link to={`/formulario/aluno/${aluno.ra}`}>
                 <button>Visualizar</button>
               </Link>
@@ -47,4 +64,4 @@ function ListaAlunos() {
     </div>
   );
 }
-export default ListaAlunos;
+export default ListaAlunosNaoCadatrado;

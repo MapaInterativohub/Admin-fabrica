@@ -5,13 +5,15 @@ import axios from "axios";
 function Cards() {
   const [quantidadeDeAlunos, setQuantidadeDeAlunos] = useState([]);
   const [quantidadeDeProjetos, setQuantidadeDeProjetos] = useState([]);
+  const [quantidadeDeGestores, setQuantidadeDeGestores] = useState([]);
 
   //Controle de quantidade de Projetos para o card de Projetos
   useEffect(() => {
     axios
       .get("http://localhost:8080/alunos/alunos")
       .then((res) => {
-        setQuantidadeDeAlunos(res.data);
+        const filtrado = res.data.filter((alunos) => alunos.status === true)
+        setQuantidadeDeAlunos(filtrado);
       })
       .catch((err) => {
         console.error("Erro ao buscar projetos:", err);
@@ -32,6 +34,18 @@ function Cards() {
   }, []);
   const quantidadeProjetos = quantidadeDeProjetos.length;
 
+  useEffect(() => {
+    axios
+      .get("http://localhost:8080/gestores/gestores")
+      .then((res) => {
+        setQuantidadeDeGestores(res.data);
+      })
+      .catch((err) => {
+        console.error("Erro ao buscar projetos:", err);
+      });
+  }, []);
+  const quantidadedeGestores = quantidadeDeGestores.length;
+
   return (
     <div className="infoGeral">
       <link
@@ -43,7 +57,7 @@ function Cards() {
           <i className="fa-solid fa-people-roof"></i>
           <div className="info">
             <div className="txtCard">
-              <h1>Não definido</h1>
+              <h1>{quantidadedeGestores}</h1>
               <h2>Gestores</h2>
             </div>
           </div>

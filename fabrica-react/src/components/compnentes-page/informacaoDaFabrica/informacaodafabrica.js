@@ -8,8 +8,8 @@ import axios from "axios";
 register();
 
 function InformacaoDaFabrica() {
-  const codigoDeConfiguracaoTextoInicial = "CONF3212";
-  const codigoDeConfiguracaoImagenInicial = "CONF1181";
+  const codigoDeConfiguracaoTextoInicial = "CONF4868";
+  const codigoDeConfiguracaoImagenInicial = "CONF6714";
 
   const [mensagem, setMensagem] = useState("");
   //função para pegar dados da configuração da api
@@ -121,7 +121,7 @@ function InformacaoDaFabrica() {
       <div className="text">
         <div className="info-text">
           <h1>Fábrica de Software – Projeto Acadêmico</h1>
-          <h2 id="Descripton">{configMap.CONF3212 || "Carregando texto..."}</h2> 
+          <h2 id="Descripton">{configMap.CONF4868 || "Carregando texto..."}</h2> 
           <div
             className="formularioDeAtulizacaoDeTexte"
             id="formularioDeAtulizacaoDeTexte"
@@ -138,7 +138,7 @@ function InformacaoDaFabrica() {
                 cols="40"
                 value={Input_Descripton}
                 onChange={(e) => setInput_Descripton(e.target.value)}
-                placeholder={configMap.CONF3212} //codigo para a configuração do texto
+                placeholder={configMap.CONF4868} //codigo para a configuração do texto
               />
               <button
                 type="submit"
@@ -164,7 +164,7 @@ function InformacaoDaFabrica() {
       <div className="Img-informacao-fabrica">
         <img
           src={
-            configMap.CONF1181 || // codigo de configuração do Imagen
+            configMap.CONF6714 || // codigo de configuração do Imagen
             "https://cdn-icons-png.flaticon.com/512/6705/6705142.png"
           }
           alt="Logo-Fabrica-de-sofWare"
